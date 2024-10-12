@@ -1,5 +1,5 @@
 * {
-    color: #ffffff; /* Light text color */
+    color: #ffffff;
     font-family: sans-serif;
     transition: 0.2s ease-in-out;
     user-select: none;
@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #f8bbd0; /* Light pink background */
+    background-color: #e0f2f1;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -37,8 +37,8 @@ body {
 }
 
 .turn-container .turn-box {
-    border: 3px solid #d81b60; /* Deep pink border */
-    background-color: #f06292; /* Soft pink for turn boxes */
+    border: 3px solid #8d6e63;
+    background-color: #a5d6a7;
     font-size: 1.6rem;
     font-weight: 700;
 }
@@ -53,7 +53,7 @@ body {
     left: 0;
     width: 85px;
     height: 40px;
-    background-color: #c2185b; /* Medium pink for indicator */
+    background-color: #7b9a7a;
     z-index: -1;
 }
 
@@ -64,23 +64,23 @@ body {
     height: 250px;
     width: 250px;
     margin: 30px auto;
-    border: 2px solid #d81b60; /* Deep pink for grid border */
+    border: 2px solid #8d6e63;
 }
 
 .box {
     cursor: pointer;
     font-size: 2rem;
     font-weight: 700;
-    border: 2px solid #d81b60; /* Deep pink for box borders */
-    background-color: #f06292; /* Soft pink for boxes */
+    border: 2px solid #8d6e63;
+    background-color: #a5d6a7;
 }
 
 .box:hover {
-    background-color: #ff80ab; /* Lighter pink on hover */
+    background-color: #c8e6c9;
 }
 
 #play-again {
-    background-color: #d81b60; /* Deep pink for button */
+    background-color: #8d6e63;
     padding: 10px 25px;
     border: none;
     font-size: 1.2rem;
@@ -91,6 +91,6 @@ body {
 
 #play-again:hover {
     padding: 10px 40px;
-    background-color: #c2185b; /* Medium pink on hover */
-    color: #ffffff; /* Light text color */
+    background-color: #7b9a7a;
+    color: #ffffff;
 }
